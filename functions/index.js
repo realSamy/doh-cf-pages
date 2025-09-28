@@ -29,7 +29,7 @@ export const onRequestGet = async ({ request }) => {
   }
 
   // Default 404 for unmatched GET requests
-  return new Response('', { status: 404 });
+  return new Response('test', { status: 404 });
 };
 
 export const onRequestPost = async ({ request }) => {
